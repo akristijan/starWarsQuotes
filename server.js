@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const MongoClient = require('mongodb').MongoClient
 const app = express();
 const PORT = 3001
-const url = "mongodb+srv://ninja:ljeto2022@cluster0.svfrbat.mongodb.net/?retryWrites=true&w=majority"
+const url = "#"
 
 //Connect to DB
 MongoClient.connect(url, { useUnifiedTopology: true })
